@@ -1,0 +1,10 @@
+table,rows,columns,exact_duplicate_rows,missing_cells,primary_key_candidate,unique_key_values,column_names
+customers,99441,5,0,0,customer_id,99441,"customer_id, customer_unique_id, customer_zip_code_prefix, customer_city, customer_state"
+geolocation,1000163,5,261831,0,geolocation_zip_code_prefix,19015,"geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city, geolocation_state"
+items,112650,7,0,0,order_id,98666,"order_id, order_item_id, product_id, seller_id, shipping_limit_date, price, freight_value"
+payments,103886,5,0,0,order_id,99440,"order_id, payment_sequential, payment_type, payment_installments, payment_value"
+reviews,99224,7,0,145903,review_id,98410,"review_id, order_id, review_score, review_comment_title, review_comment_message, review_creation_date, review_answer_timestamp"
+orders,99441,8,0,4908,order_id,99441,"order_id, customer_id, order_status, order_purchase_timestamp, order_approved_at, order_delivered_carrier_date, order_delivered_customer_date, order_estimated_delivery_date"
+products,32951,9,0,2448,product_id,32951,"product_id, product_category_name, product_name_lenght, product_description_lenght, product_photos_qty, product_weight_g, product_length_cm, product_height_cm, product_width_cm"
+sellers,3095,4,0,0,seller_id,3095,"seller_id, seller_zip_code_prefix, seller_city, seller_state"
+translation,71,2,0,0,product_category_name,71,"product_category_name, product_category_name_english"

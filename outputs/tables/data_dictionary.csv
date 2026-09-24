@@ -1,0 +1,30 @@
+column_name,data_type,description,source_table,missing_count,missing_percentage,unique_count,analytical_role
+order_id,str,Unique order identifier.,items,0,0.0,99441,Identifier
+customer_id,str,Customer identifier for the order record.,customers,0,0.0,99441,Identifier
+order_status,str,Current status recorded for the order.,orders,0,0.0,8,Dimension / Feature
+order_purchase_timestamp,datetime64[us],Timestamp at which the order was placed.,orders,0,0.0,98875,Dimension / Feature
+order_approved_at,datetime64[us],Derived analytical field or source attribute.,orders,160,0.16,90733,Dimension / Feature
+order_delivered_carrier_date,datetime64[us],Derived analytical field or source attribute.,orders,1783,1.79,81018,Dimension / Feature
+order_delivered_customer_date,datetime64[us],Timestamp when the order was delivered to the customer.,orders,2965,2.98,95664,Dimension / Feature
+order_estimated_delivery_date,datetime64[us],Estimated delivery date recorded for the order.,orders,0,0.0,459,Dimension / Feature
+item_revenue,float64,Sum of item selling prices for the order.,derived,775,0.78,7761,Metric
+freight_value,float64,Sum of item freight charges for the order.,items,775,0.78,7970,Metric
+item_count,float64,Number of item rows in the order.,derived,775,0.78,17,Metric
+product_count,float64,Number of distinct products in the order.,derived,775,0.78,8,Metric
+total_order_value,float64,Item revenue plus freight charges.,derived,775,0.78,31035,Metric
+contribution_proxy,float64,"Item revenue minus freight; proxy only, not accounting profit.",derived,775,0.78,32921,Metric
+freight_ratio,float64,Freight divided by item revenue.,derived,775,0.78,44467,Metric
+customer_unique_id,str,Customer identifier stable across repeat orders.,customers,0,0.0,96096,Identifier
+customer_city,str,Derived analytical field or source attribute.,customers,0,0.0,4119,Dimension / Feature
+customer_state,str,Derived analytical field or source attribute.,customers,0,0.0,27,Dimension / Feature
+payment_value,float64,Total recorded payment value for the order.,payments,1,0.0,27979,Metric
+dominant_payment_type,str,Payment type with the greatest aggregated payment value for the order.,derived,1,0.0,5,Dimension / Feature
+review_score,float64,Average available review score for the order.,reviews,768,0.77,11,Metric
+review_count,float64,Derived analytical field or source attribute.,derived,768,0.77,3,Metric
+purchase_month,str,Calendar month of purchase.,derived,0,0.0,25,Dimension / Feature
+purchase_year,int32,Calendar year of purchase.,derived,0,0.0,3,Metric
+delivery_days,float64,Days from purchase to customer delivery.,derived,2965,2.98,93809,Metric
+delivery_delay_days,float64,Actual delivery date minus estimated delivery date in days.,derived,2965,2.98,91915,Metric
+delivered_late,bool,True when delivery occurred after the estimated delivery date.,derived,0,0.0,2,Metric
+customer_order_count,int64,Number of orders associated with the unique customer identifier.,derived,0,0.0,9,Metric
+customer_type,str,Repeat when the customer has more than one order; otherwise one-time.,derived,0,0.0,2,Dimension / Feature

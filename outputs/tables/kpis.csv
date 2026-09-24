@@ -1,0 +1,16 @@
+kpi,value,unit,definition
+Total registered orders,99441.0,count,All rows in the Olist orders table.
+Orders with item records,98666.0,count,Orders with item-level financial records.
+Delivered orders,96478.0,count,Order status = delivered.
+Unique customers,96096.0,count,Distinct customer_unique_id.
+Total item revenue,13591643.700000001,BRL,Sum of item selling prices.
+Total freight,2251909.54,BRL,Sum of freight_value.
+Freight-adjusted contribution proxy,11339734.16,BRL,Item revenue minus freight only; not accounting profit.
+Contribution proxy margin,0.8343166147005457,ratio,Contribution proxy / item revenue.
+Average order value incl. freight,160.57763809214924,BRL,Average total order value among orders with item records.
+Freight-to-revenue ratio,0.16568338529945423,ratio,Freight / item revenue.
+Average delivery days,12.558217098051976,days,Delivered orders with valid purchase and delivery dates.
+Late delivery rate,0.08112366538820359,ratio,Delivered orders delivered after the estimate.
+Average review score,4.0867934152875325,score,Mean of available order-level review scores.
+Repeat customer rate,0.031187562437562436,ratio,Share of unique customers with more than one order.
+Order share from repeat customers,0.06377651069478384,ratio,Share of all orders linked to repeat customers.

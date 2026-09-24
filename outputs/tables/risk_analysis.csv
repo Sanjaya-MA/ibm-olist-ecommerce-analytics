@@ -1,0 +1,23 @@
+risk_area,segment,evidence_metric,value,context,interpretation
+Category freight burden,electronics,freight_ratio,0.29066625629950416,"2,767 items; BRL 160,246.74 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,furniture_living_room,freight_ratio,0.26072354743185094,"503 items; BRL 68,916.56 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,office_furniture,freight_ratio,0.2502984917179727,"1,691 items; BRL 273,960.70 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,food,freight_ratio,0.24736939334361,"510 items; BRL 29,393.41 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,furniture_decor,freight_ratio,0.23671989498939577,"8,334 items; BRL 729,762.49 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,housewares,freight_ratio,0.23115764294383792,"6,964 items; BRL 632,248.66 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,telephony,freight_ratio,0.22002760054429926,"4,545 items; BRL 323,667.53 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,luggage_accessories,freight_ratio,0.21680007360251705,"1,092 items; BRL 140,429.98 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,fashion_bags_accessories,freight_ratio,0.20579290337077652,"2,031 items; BRL 152,823.54 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Category freight burden,garden_tools,freight_ratio,0.20393906760149055,"4,347 items; BRL 485,256.46 revenue",Freight consumes a higher share of revenue than the overall portfolio average.
+Regional freight burden,MA,freight_ratio,0.26347044694856303,"740 orders; BRL 119,648.22 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,PE,freight_ratio,0.22622666641246936,"1,648 orders; BRL 262,788.03 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,PB,freight_ratio,0.22312968169505382,"532 orders; BRL 115,268.08 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,PA,freight_ratio,0.2162602604636514,"970 orders; BRL 178,947.81 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,CE,freight_ratio,0.21276386306800857,"1,327 orders; BRL 227,254.71 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,BA,freight_ratio,0.19586717895506361,"3,358 orders; BRL 511,349.99 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,MT,freight_ratio,0.18993134894431593,"903 orders; BRL 156,453.53 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,ES,freight_ratio,0.18093763351597641,"2,025 orders; BRL 275,037.31 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,RS,freight_ratio,0.18062376901565846,"5,432 orders; BRL 750,304.02 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Regional freight burden,GO,freight_ratio,0.1803001745295484,"2,007 orders; BRL 294,591.95 revenue",Freight burden is above the portfolio average in a sufficiently sized market.
+Late-delivery customer experience,Late deliveries,average_review_score,2.559309524092172,Observed late-delivery groups are compared with on-time/early orders.,"Late orders have materially lower average review scores in the observed data; this is associative evidence, not proof of causation."
+Customer retention,Repeat customers,repeat_customer_rate,0.031187562437562436,"2,913 repeat customers in customer-level analysis","The historical customer base is dominated by one-time customers, so retention is a material area for investigation."

@@ -1,0 +1,11 @@
+opportunity_area,segment,evidence_metric,value,supporting_metric,interpretation
+Category growth / mix,watches_gifts,contribution_proxy,1104469.75,0.9165680862184816,Meaningful category contribution proxy with sufficient observed volume.
+Category growth / mix,health_beauty,contribution_proxy,1076114.61,0.8549539711139279,Meaningful category contribution proxy with sufficient observed volume.
+Category growth / mix,bed_bath_table,contribution_proxy,832295.64,0.8026082213356466,Meaningful category contribution proxy with sufficient observed volume.
+Category growth / mix,sports_leisure,contribution_proxy,819441.46,0.8293530835824868,Meaningful category contribution proxy with sufficient observed volume.
+Category growth / mix,computers_accessories,contribution_proxy,764636.24,0.838458926319906,Meaningful category contribution proxy with sufficient observed volume.
+Category growth / mix,furniture_decor,contribution_proxy,557013.19,0.7632801050106042,Meaningful category contribution proxy with sufficient observed volume.
+Category growth / mix,cool_stuff,contribution_proxy,551251.75,0.8677155510739688,Meaningful category contribution proxy with sufficient observed volume.
+Category growth / mix,auto,contribution_proxy,500055.89999999997,0.8436627871458587,Meaningful category contribution proxy with sufficient observed volume.
+Regional growth / mix,SP,contribution_proxy,4484231.98,0.13813747439543994,High-volume market with below-average freight burden.
+Retention,Repeat customers,revenue_per_customer,262.0294747682801,138.67439047855837,Repeat customers have observed aggregate spend per customer above one-time customers because they place multiple orders; retention analysis can target conversion of one-time buyers.

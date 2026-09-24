@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# Keep raw Olist data out of GitHub unless explicitly allowed
+data/raw/*.csv
